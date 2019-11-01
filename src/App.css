@@ -55,3 +55,120 @@ header .overlay {
     display: none;
   }
 }
+
+.head{
+  height: 100vh;
+}
+#contact{
+  background-color: rgba(255,255,255,.7);
+
+}
+#backgroundContact{
+  padding-top: 5rem;
+  padding-bottom: 0;
+  background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92,77,66,.8) 100%),url(./bg-masthead.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+}
+#iconSocial{
+  font-size: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.fa-linkedin{
+  margin: 0 10px 0 10px;
+}
+/* #mainNav .navbar-nav .nav-item .nav-link.active {
+  color: red!important;
+} */
+
+.speak{
+position: relative;
+display: inline-block;
+min-width: 2.7em;
+margin: 1em;
+text-align: center;
+cursor: pointer;
+}
+
+.speak span {
+transition: color 0.3s ease-out;
+color: inherit;
+}
+
+.speak:after,
+.speak:before,
+.speak span:after,
+.speak span:before {
+color: #333333;
+background-color: currentColor;
+}
+
+.two:before,
+.two span:before,
+.two span:after,
+.two:after{
+  background-color: #f4623a;
+}
+
+.speak:after,
+.speak:before,
+.speak span:before,
+.speak span:after {
+position: absolute;
+content: '';
+border-radius: 4px;
+}
+
+.speak:after,
+.speak:before {
+bottom: -6px;
+height: 4px;
+}
+
+.speak:after {
+left: 0;
+right: 39px;
+}
+
+.speak:before {
+right: -2px;
+width: 13px;
+}
+
+.speak span:before {
+height: 0;
+width: 4px;
+bottom: -2px;
+right: 7px;
+transition: height .3s, bottom .3s;
+}
+
+.speak span:after {
+height: 4px;
+width: 34px;
+bottom: -6px;
+right: 8px;
+transform: rotate(0deg);
+transform-origin: left top;
+transition: transform .3s, right .3s, width .3s;
+}
+
+.speak.active span:before {
+height: 22px;
+bottom: -24px;
+}
+
+.speak.active span:after {
+right: 1px;
+width: 40px;
+transform: rotate(30deg);
+}
+
+.speak.active,
+.speak.active {
+outline: 0;
+}
