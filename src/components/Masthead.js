@@ -1,4 +1,7 @@
 import React, { useEffect } from 'react'
+import {
+   Link
+  } from "react-router-dom";
 
 export default function Masthead() {
     var TxtType = function(el, toRotate, period) {
@@ -69,7 +72,7 @@ export default function Masthead() {
             <header className="head">
                 <div className="overlay"></div>
                 <video className="VideoPlayer-video show" loop="loop" playsinline="playsinline" muted="muted" preload="auto" autoplay="autoplay">
-                    <source data-src="https://www.leafworks.com/catalog/view/theme/default/media/leafworks-movie.1570140678.mp4" type="video/mp4" src="https://www.leafworks.com/catalog/view/theme/default/media/leafworks-movie.1570140678.mp4" />
+                    <source data-src="https://www.leafworks.com/catalog/view/theme/default/media/leafworks-movie.1570140678.mp4" type="video/mp4" src="https://bowandarrow.com/videos/ba-homepage.mp4" />
                 </video>
                 <div className="container h-100">
                     <div className="d-flex h-100 text-center align-items-center">
@@ -77,16 +80,16 @@ export default function Masthead() {
                             <div className="container h-100">
                                 <div className="row h-100 align-items-center justify-content-center text-center">
                                     <div className="col-lg-10 align-self-end">
-                                        <h1 className=" text-white font-weight-bold test" className="typewrite" data-period="2000"
+                                        <h2 className=" text-white font-weight-bold test" className="typewrite" data-period="2000"
                                             data-type={`[ "Welcome to Huy's portfolio!","I'm a software developer" ]`} alt="#">
                                             <span class="wrap"></span>
-                                        </h1>
+                                        </h2>
                                         <hr className="divider my-4" />
                                     </div>
                                     <div className="col-lg-8 align-self-baseline">
                                         <p className="text-white-75 font-weight-light mb-5">“Experience is the name everyone gives to their mistakes.” – Oscar Wilde</p>
                                         <p className="text-white-75 font-weight-light mb-5">Feel free to take a look through my projects in past.</p>
-                                        <a className="btn btn-primary btn-xl js-scroll-trigger" href="project">Projects</a>
+                                        <Link className="btn btn-primary btn-xl js-scroll-trigger" to="/project">Projects</Link>
                                     </div>
                                 </div>
                             </div>
@@ -94,7 +97,6 @@ export default function Masthead() {
                     </div>
                 </div>
             </header>
-            {/* </header> */}
         </div>
     )
 }

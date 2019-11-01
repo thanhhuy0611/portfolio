@@ -25,7 +25,7 @@ export default function Navigation() {
             <nav className={`navbar navbar-expand-lg navbar-light fixed-top py-3 ${scrollStyle}`} id="mainNav">
                 <div className="container">
                     <a className="navbar-brand js-scroll-trigger" href="/">Huy's portfolio</a>
-                    <button className={`navbar-toggler navbar-toggler-right`} type="button" data-toggle="collapse"
+                    <button onClick={()=>handleClick()} className={`navbar-toggler navbar-toggler-right`} type="button" data-toggle="collapse"
                         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded={collap} aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>

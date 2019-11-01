@@ -5,14 +5,13 @@ import Masthead from './components/Masthead';
 import AboutSection from './components/AboutSection';
 import PortfolioSection from './components/PortfolioSection';
 import ContactSection from './components/ContactSection';
-import Footer from './components/Footer';
+
 
 //import router
 import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
 } from "react-router-dom";
 
 
@@ -30,7 +29,7 @@ function App() {
         <Route path='/contact' exact  component={ContactSection}></Route>
         
       </Switch>
-      <Footer />
+      
     </Router>
   );
 }

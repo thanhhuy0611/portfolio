@@ -1,4 +1,6 @@
 import React from 'react'
+import Footer from './Footer';
+
 
 export default function ContactSection() {
     return (
@@ -29,6 +31,7 @@ export default function ContactSection() {
                     </div>
                 </div>
             </section>
+            <Footer />
         </div>
     )
 }
