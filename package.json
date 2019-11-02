@@ -16,6 +16,7 @@
     "react-particles-js": "^2.4.0",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-scroll-up-button": "^1.6.4",
     "startbootstrap-creative": "^5.1.8"
   },
   "scripts": {

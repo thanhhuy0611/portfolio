@@ -1,6 +1,9 @@
 *{
     text-decoration: none !important
 }
+
+
+/* Mashead componant-------------------------------------------------------- */
 .typewrite{
     color: rgba(255,255,255,.9);
 }
@@ -59,6 +62,9 @@ header .overlay {
 .head{
   height: 100vh;
 }
+
+
+/* Contact Component ---------------------------------------------------*/
 #contact{
   background-color: rgba(255,255,255,.7);
 
@@ -81,10 +87,9 @@ header .overlay {
 .fa-linkedin{
   margin: 0 10px 0 10px;
 }
-/* #mainNav .navbar-nav .nav-item .nav-link.active {
-  color: red!important;
-} */
 
+
+/* Navbar component -----------------------------------------------------------*/
 .speak{
 position: relative;
 display: inline-block;
@@ -173,22 +178,61 @@ transform: rotate(30deg);
 outline: 0;
 }
 
+
+/* About component------------------------------------------------------- */
 .aboutComponent{
-  background-image: url(./inma-lesielle-P4mdtPtsHMQ-unsplash.jpg);
+  background: linear-gradient(to bottom,rgba(92, 77, 66, 0.5) 0,rgba(92,77,66,.8) 100%),url(./inma-lesielle-P4mdtPtsHMQ-unsplash.jpg);
+  background-position: center;
   background-repeat: no-repeat;
-  width: 100%;
-  height: auto;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
 }
+
 .fixed-top-mini {
   position: fixed;
-  bottom: -8px;
+  top: 70px;
   right: 0;
   left: 0;
   z-index: 1;
 }
 #textCV{
-  background-color: rgba(255, 255, 255, 0.863);
+  background-color: rgba(255, 255, 255, 0.7);
 }
 .bg-primary-leftBar {
-  background-color: #f4623ac0!important;
+  background-color: #f4623abe!important;
+}
+@media (min-width: 992px){
+  #sideNav {
+      text-align: center;
+      position: relative;
+      flex-direction: column;
+      width: 100%;
+      height: 100vh;
+  }
+}
+
+@media (min-width: 768px){
+  section.resume-section {
+      min-height: 50vh;
+  }
+}
+
+/* Project component------------------------------------- */
+#backgroundProject{
+  padding-top: 5rem;
+  padding-bottom: 0;
+  background: linear-gradient(to bottom,rgba(92,77,66,.8) 0,rgba(92, 77, 66, 0.616) 100%),url(./15632654535d2d89ad3a0784.03945644.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  height: 100%;
+}
+#projectBoard{
+  min-height: 100vh;
+  margin-top: 2rem;
+}
+.project{
+  border: 10px solid rgba(255, 166, 0, 0);
 }

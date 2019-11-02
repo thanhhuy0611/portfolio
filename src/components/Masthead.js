@@ -72,7 +72,7 @@ export default function Masthead() {
             <header className="head">
                 <div className="overlay"></div>
                 <video className="VideoPlayer-video show" loop="loop" playsinline="playsinline" muted="muted" preload="auto" autoplay="autoplay">
-                    <source data-src="https://www.leafworks.com/catalog/view/theme/default/media/leafworks-movie.1570140678.mp4" type="video/mp4" src="https://bowandarrow.com/videos/ba-homepage.mp4" />
+                    <source data-src="https://www.leafworks.com/catalog/view/theme/default/media/leafworks-movie.1570140678.mp4" type="video/mp4" src="https://storage.googleapis.com/coverr-main/mp4/Mt_Baker.mp4" />
                 </video>
                 <div className="container h-100">
                     <div className="d-flex h-100 text-center align-items-center">
