@@ -20,14 +20,14 @@ export default function PortfolioSection() {
                             </a>
                         </div>
                         <div class="col-lg-4 col-sm-6 project">
-                            <a class="portfolio-box" href="https://laughing-archimedes-e7f114.netlify.com/#" target="_blank">
-                                <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="" />
-                                <div class="portfolio-box-caption">
+                            <a class="portfolio-box" href="https://gifted-williams-3d064d.netlify.com/" target="_blank">
+                                <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="" />
+                                <div class="portfolio-box-caption p-3">
                                     <div class="project-category text-white-50">
-                                    HTML/CSS/Bootstrap
+                                        HTML-CSS-Bootstrap
                                     </div>
                                     <div class="project-name">
-                                        Homepage
+                                        Travelity Homepage
                                     </div>
                                 </div>
                             </a>
@@ -72,14 +72,14 @@ export default function PortfolioSection() {
                             </a>
                         </div>
                         <div class="col-lg-4 col-sm-6 project">
-                            <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
-                                <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="" />
-                                <div class="portfolio-box-caption p-3">
+                            <a class="portfolio-box" href="https://laughing-archimedes-e7f114.netlify.com/#" target="_blank">
+                                <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="" />
+                                <div class="portfolio-box-caption">
                                     <div class="project-category text-white-50">
-                                        Category
+                                    HTML/CSS/Bootstrap
                                     </div>
                                     <div class="project-name">
-                                        Project Name
+                                        Homepage
                                     </div>
                                 </div>
                             </a>

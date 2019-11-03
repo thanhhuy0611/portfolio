@@ -62,16 +62,13 @@ export default function AboutSection() {
                                                 along the way.
                                             </p>
                                             <div className="social-icons">
-                                                <a href="#">
+                                                <a href="https://www.linkedin.com/in/thanh-huy-tr%E1%BA%A7n-762953145/" target="_blank">
                                                     <i className="fab fa-linkedin-in"></i>
                                                 </a>
-                                                <a href="#">
+                                                <a href="https://github.com/thanhhuy0611" target="_blank">
                                                     <i className="fab fa-github"></i>
                                                 </a>
-                                                <a href="#">
-                                                    <i className="fab fa-twitter"></i>
-                                                </a>
-                                                <a href="#">
+                                                <a href="https://www.facebook.com/tran.huy.39108" target="_blank">
                                                     <i className="fab fa-facebook-f"></i>
                                                 </a>
                                             </div>
